@@ -1,0 +1,58 @@
+body { 
+  background-image: url('Ur mum gei.gif');
+  background-size: 30%, 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  position: relative;
+  font-family: "Comic Sans MS";
+  font-size: 10rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+  animation: colorRotate 3.5s linear 0s infinite;
+}
+p {
+  color: red;
+}
+
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+    rotate:0deg;
+    font-size:10rem;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+    font-size: 12rem;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+    rotate:360deg;
+    font-size:10rem;
+  }
